@@ -10,6 +10,11 @@
 	
 	/* Preloader */
 	$(window).on('load', function() {
+	
+		var host = "flexfinance.ai";
+		if ((host == window.location.host) && (window.location.protocol != "https:"))
+		  window.location.protocol = "https";
+		
 		var preloaderFadeOutTime = 500;
 		function hidePreloader() {
 			var preloader = $('.spinner-wrapper');
