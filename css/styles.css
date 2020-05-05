@@ -177,6 +177,25 @@ a.white {
   text-decoration: none;
 }
 
+.btn-solid-download {
+  display: inline-block;
+  padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+  border: 0.125rem solid #000000;
+  border-radius: 2rem;
+  background-color: #000000;
+  color: #fff;
+  font: 700 0.75rem/0 "Raleway", sans-serif;
+  text-decoration: none;
+  transition: all 0.2s;
+  letter-spacing: 3px;
+}
+
+.btn-solid-download:hover {
+  background-color: transparent;
+  color: #000000;
+  text-decoration: none;
+}
+
 .btn-outline-reg {
   display: inline-block;
   padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
