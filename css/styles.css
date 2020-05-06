@@ -152,6 +152,8 @@ a.white {
   transition: all 0.2s;
 }
 
+.btn-group button { margin: 0 7px; }
+
 .btn-solid-reg:hover {
   background-color: transparent;
   color: #00bfd8;
