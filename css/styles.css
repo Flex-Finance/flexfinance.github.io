@@ -959,10 +959,11 @@ input[type="checkbox"] {
 }
 .featured {
   text-align: center;
-  padding-top: 5rem;
+  margin-top: 5rem;
 }
 .featured img {
-  width: 150px;
+  width: 200px;
+  padding-left: 35px;
 }
 
 /********************************/
@@ -1900,7 +1901,7 @@ a:hover.back-to-top {
 
 	/* General Styles */
 	.p-heading {
-		width: 65%;
+    width: 85%;
 	}
 	/* end of general styles */
 
@@ -2075,7 +2076,7 @@ a:hover.back-to-top {
 
   /* General Styles */
   .p-heading {
-    width: 55%;
+    width: 80%;
   }
   /* end of general styles */
 
