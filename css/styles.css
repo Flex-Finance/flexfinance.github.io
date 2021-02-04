@@ -961,6 +961,9 @@ input[type="checkbox"] {
   text-align: center;
   padding-top: 5rem;
 }
+.featured img {
+  width: 150px;
+}
 
 /********************************/
 /*     11. Details Lightbox     */
