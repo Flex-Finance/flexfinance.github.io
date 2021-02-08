@@ -953,22 +953,37 @@ input[type="checkbox"] {
 .extra {
   background: #F7F8FA;
   margin-top: 6.5rem;
-  height: 100px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+}
+.extra p {
+  font-size: 24px;
+
 }
 .featured {
   text-align: center;
   margin-top: 8rem;
 }
 .featured .featured-logo {
-  margin-top: 2rem;
+  display: flex;
+  width: 80%;
+  height: 150px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+
 .featured p {
   font-size: 20px;
 }
 .featured img {
-  width: 200px;
-  padding-left: 35px;
+   width: 150px; 
+  height: 50px;
+  object-fit: contain;
 }
 
 /********************************/
@@ -1694,6 +1709,8 @@ a:hover.back-to-top {
 /*****************************/
 /*     19. Media Queries     */
 /*****************************/
+/* min-width width 460px */
+
 /* Min-width width 768px */
 @media (min-width: 768px) {
   /* General Styles */
