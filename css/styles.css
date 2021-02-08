@@ -970,8 +970,7 @@ input[type="checkbox"] {
 .featured .featured-logo {
   display: flex;
   width: 80%;
-  height: 150px;
-  margin: auto;
+  margin:30px auto;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -982,7 +981,7 @@ input[type="checkbox"] {
 }
 .featured img {
    width: 150px; 
-  height: 50px;
+  height: 120px;
   object-fit: contain;
 }
 
