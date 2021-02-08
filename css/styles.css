@@ -960,6 +960,7 @@ input[type="checkbox"] {
   text-align: center;
 }
 .extra p {
+  padding-top: 20px;
   font-size: 24px;
 
 }
